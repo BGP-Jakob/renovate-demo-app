@@ -5,8 +5,12 @@
   ],
   "packageRules": [
     {
-      "matchDepTypes" :["devDependencies"],
-      "groupName": "Dev Gruppe-01"
+      "matchDepTypes": ["devDependencies"],
+      "groupName": "dev dependencies"
+    },
+    {
+      "matchPackageNames": ["axios"],
+      "enabled": false
     }
   ]
 }
