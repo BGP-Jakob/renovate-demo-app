@@ -3,8 +3,6 @@
   "extends": [
     "config:recommended"
   ],
-  "prConcurrentLimit": 100,
-  "prHourlyLimit": 10,
   "packageRules": [
     {
       "matchUpdateTypes": ["patch", "minor"],
